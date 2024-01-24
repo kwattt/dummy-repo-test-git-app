@@ -1,0 +1,7 @@
+ignore
+gitapp.pem
+
+dist/
+node_modules/
+.env
+package-lock.json

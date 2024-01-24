@@ -1,0 +1,28 @@
+{
+  "name": "gitest",
+  "version": "1.0.0",
+  "description": "im a pr!",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/types": "^12.4.0",
+    "@types/node-fetch": "^2.6.11",
+    "dotenv": "^16.4.0",
+    "gaxios": "^6.1.1",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "smee-client": "^2.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
